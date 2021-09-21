@@ -384,3 +384,5 @@ function curry (config) {
     }
   }
 }
+
+export curry
