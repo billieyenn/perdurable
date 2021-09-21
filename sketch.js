@@ -1,5 +1,5 @@
-{
-  function (p) {
+function curry (config) {
+  return function (p) {
     function randomHash () {
       const x = '0123456789abcdef'
       let hash = '0x'
