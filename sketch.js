@@ -387,4 +387,3 @@ const curry = function (config) {
     }
   }
 }
-export { curry }
