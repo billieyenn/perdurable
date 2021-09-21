@@ -384,3 +384,4 @@ function curry (config) {
     }
   }
 }
+return curry
