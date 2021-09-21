@@ -1,7 +1,4 @@
-/* eslint-enable */
-/* eslint-disable */
-
-const curry = function (config) {
+{
   return function (p) {
     function randomHash () {
       const x = '0123456789abcdef'
