@@ -1,4 +1,4 @@
-function curry (config) {
+(config) => {
   return function (p) {
     function randomHash () {
       const x = '0123456789abcdef'
@@ -384,5 +384,3 @@ function curry (config) {
     }
   }
 }
-
-export curry
