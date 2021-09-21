@@ -1,5 +1,5 @@
 {
-  return function (p) {
+  function (p) {
     function randomHash () {
       const x = '0123456789abcdef'
       let hash = '0x'
